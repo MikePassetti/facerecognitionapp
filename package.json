@@ -15,7 +15,7 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "start": "node ./node-modules/react-scripts/bin/react-scripts.js start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
